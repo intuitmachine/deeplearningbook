@@ -1180,7 +1180,11 @@
 
 				ul.contact-icons > li a {
 					border-bottom: 0;
-					word-break: break-all;
+					word-break: break-all;  /* Chrome*/
+					white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+					white-space: -pre-wrap; /* Opera 4-6 */
+					white-space: -o-pre-wrap; /* Opera 7 */
+					word-wrap: break-word; /* Internet Explorer 5.5+ */
 				}
 
 			ul.contact-icons.color1 > li:before {
