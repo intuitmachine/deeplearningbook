@@ -1150,11 +1150,13 @@
 		ul.contact-icons {
 			list-style: none;
 			padding-left: 0;
+			
 		}
 
 			ul.contact-icons > li {
 				margin: 1.25rem 0 0 0;
 				padding-left: 0;
+
 			}
 
 				ul.contact-icons > li:before {
@@ -1178,6 +1180,7 @@
 
 				ul.contact-icons > li a {
 					border-bottom: 0;
+					word-break: break-all;
 				}
 
 			ul.contact-icons.color1 > li:before {
