@@ -3678,3 +3678,67 @@
 			}
 
 	}
+
+
+/* My CSS*/
+ul#partnerLogoList li {
+	
+    display:inline;
+    list-style-type:none;
+}
+ul#mylist li {
+	padding: 0.5em;
+    font-size:small;
+    list-style-type:none;
+    text-decoration: none;
+
+}
+
+ul#contactlist li{
+
+	padding: 1em;
+	display:inline;
+	list-style-type:none;
+	text-decoration: none;	
+}
+
+img.PartnerLogo {
+	/*padding: 0.25rem;*/
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.logoHeader{
+	font-family:courier, courier new, serif;	 
+	text-align: center;
+	letter-spacing: 2.5px;
+}
+.mygrid{
+	/*display:grid;*/
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap:0.25em;
+    grid-auto-rows: 1fr;
+	display: grid;
+	
+}
+.mygrid > div{
+	padding: 0.25em;
+	height: 100%;
+	width: 85px;
+	/*display: inline-flex;
+	align-items: center;
+	justify-content: center;*/
+	
+    
+    text-align: center;
+
+}
+.Centerer
+{
+    
+    height: 100%;
+    vertical-align: middle;
+}
